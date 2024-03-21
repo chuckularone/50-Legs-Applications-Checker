@@ -1,0 +1,26 @@
+2024-03-11 09:20:12: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-11 09:24:13: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-11 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-12 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-13 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-14 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-15 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-15 15:14:21: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/./testScript.py", line 39, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-03-15 15:15:40: WOO HOO!!!!!
+The text 'We are BLOOP not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-03-15 15:16:39: WOO HOO!!!!!
+The text 'We are BLOOP not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-03-16 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-17 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-18 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-19 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-20 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-03-21 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
