@@ -30,7 +30,7 @@ try:
     # target_text = "We are not currently accepting new applications"
     target_text = "We are not currently accepting new applications."
     text_found = target_text in soup.get_text()
-    print(text_found)
+    #print(text_found)
 
     # Prepare result message
     if text_found:
