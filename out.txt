@@ -32,3 +32,480 @@ APPLY NOW!!
 2024-03-27 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
 2024-03-28 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
 2024-03-29 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-01 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-02 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-03 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-04 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-05 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-08 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-09 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-10 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-11 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-12 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-15 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-16 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-17 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-18 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-19 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-22 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-23 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-24 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-25 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-26 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-29 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-04-30 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-01 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-02 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-03 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-06 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-07 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-08 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-09 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-10 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-13 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-14 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-15 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-16 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-17 09:30:01: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-20 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-21 09:30:02: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-05-22 09:30:07: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-23 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-24 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-27 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-28 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-29 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-30 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-05-31 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-03 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-04 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-05 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-06 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-07 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-10 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-11 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-12 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-14 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-17 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-19 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-21 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-24 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-26 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-06-28 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-01 09:30:05: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-03 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-05 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-08 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-10 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-12 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-15 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-17 09:30:05: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-19 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-22 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-24 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-26 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-29 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-07-31 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-02 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-05 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-07 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-09 09:30:04: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-12 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-14 09:30:01: An error occurred: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7c76eeb66230>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7c76eeb66230>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7c76eeb66230>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 26, in <module>
+    response = requests.get(url)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7c76eeb66230>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+2024-08-16 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-19 09:30:13: An error occurred: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70afa2966530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x70afa2966530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70afa2966530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 26, in <module>
+    response = requests.get(url)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70afa2966530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+2024-08-21 09:30:01: An error occurred: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x759eefd66410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x759eefd66410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x759eefd66410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 26, in <module>
+    response = requests.get(url)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x759eefd66410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+2024-08-23 09:30:01: An error occurred: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70cdddd6a3e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x70cdddd6a3e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70cdddd6a3e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 26, in <module>
+    response = requests.get(url)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70cdddd6a3e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+2024-08-26 09:30:13: An error occurred: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x743f3a37e140>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x743f3a37e140>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x743f3a37e140>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 26, in <module>
+    response = requests.get(url)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/chuck/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='50legs.org', port=443): Max retries exceeded with url: /application-for-assistance/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x743f3a37e140>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+2024-08-28 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-08-30 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-02 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-04 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-06 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-09 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-11 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-13 09:30:03: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-16 09:30:02: The text 'We are not currently accepting new applications' was found on the website.
+2024-09-18 09:30:02: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-20 09:30:01: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-20 09:35:18: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/./test50.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-20 09:36:11: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/./test50.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-23 09:30:02: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-25 09:30:01: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-27 09:30:02: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-09-30 09:30:02: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-10-02 09:30:02: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-10-04 09:30:01: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-10-04 11:45:17: An error occurred: name 'msg' is not defined
+
+Traceback (most recent call last):
+  File "/home/chuck/code/python/scrape/./50legs.py", line 38, in <module>
+    msg.add_header('Importance', 'high')
+NameError: name 'msg' is not defined
+
+2024-10-04 11:45:54: WOO HOO!!!!!
+The text 'We are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-04 11:57:32: WOO HOO!!!!!
+The text 'We are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-07 09:30:02: WOO HOO!!!!!
+The text 'We are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 09:30:02: WOO HOO!!!!!
+The text 'We are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:40:09: WOO HOO!!!!!
+The text 'xxxWe are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:40:30: WOO HOO!!!!!
+The text 'xxxWe are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:40:47: WOO HOO!!!!!
+The text 'We are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:42:14: WOO HOO!!!!!
+The text 'We are not currently accepting new applications' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:43:54: WOO HOO!!!!!
+The text 'We are not currently accepting new applications.' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:44:24: WOO HOO!!!!!
+The text 'We are not currently accepting new applications.' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:45:15: WOO HOO!!!!!
+The text 'We are not currently accepting new applications.' was NOT FOUND on the website.
+APPLY NOW!!
+2024-10-09 11:49:38: The text 'We are not currently accepting new applications.' was found on the website.
+2024-10-09 11:53:11: The text 'We are not currently accepting new applications.' was found on the website.

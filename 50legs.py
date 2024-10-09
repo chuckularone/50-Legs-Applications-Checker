@@ -8,7 +8,7 @@ import traceback
 import datetime
 
 # URL to scrape
-url = "https://50legs.org/application-for-assistance/"
+url = "http://192.168.1.39/chuck/temp.html"
 
 # Senders and receivers
 sender_email = "postmaster@theshanty.us"
@@ -25,18 +25,18 @@ try:
     # Request the URL
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
-
+    print(soup)
     # Find the target text
-    target_text = "We are not currently accepting new applications"
+    # target_text = "We are not currently accepting new applications"
+    target_text = "We are not currently accepting new applications."
     text_found = target_text in soup.get_text()
+    print(text_found)
 
     # Prepare result message
     if text_found:
         message["Subject"] = "50 Legs not accepting applications"
         result_message = f"The text '{target_text}' was found on the website."
     else:
-        msg.add_header('Importance', 'high')
-        msg.add_header('Priority', 'urgent')
         message["Subject"] = "APPLY TO 50 LEGS NOW!" 
         result_message = f"WOO HOO!!!!!\nThe text '{target_text}' was NOT FOUND on the website.\nAPPLY NOW!!"
 
