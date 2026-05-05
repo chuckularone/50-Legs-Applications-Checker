@@ -8,44 +8,49 @@ import traceback
 import datetime
 
 # URL to scrape
-url = "http://192.168.1.39/chuck/temp.html"
+# Read IP address from file and build the URL
+with open("/home/chuck/code/python/scrape/ip.txt", "r") as f:
+    ip_address = f.read().strip()
+url = f"http://{ip_address}/chuck/temp.html"
 
+target_text = "We are not currently accepting new applications."
+email_fail_subject = "50 Legs not accepting applications"
+email_success_subject = "APPLY TO 50 LEGS NOW!"
+action_text = "APPLY NOW!"
+outFile = "/home/chuck/code/python/scrape/out.txt"
 # Senders and receivers
-sender_email = "postmaster@theshanty.us"
-receiver_email1 = "chuck@mckenna.tv"
-receiver_email2 = "cammckenna05@gmail.com"
+sender_email = "postmaster"
+receiver_email = "chuck@theshanty.us"
 password = "bTzRp2dN2*3#Qbnc"
 
 # Prepare email message
 message = MIMEMultipart()
 message["From"] = sender_email
-message["To"] = receiver_email1
+message["To"] = receiver_email
 
 try:
     # Request the URL
-    response = requests.get(url)
+    response = requests.get(url, timeout=15)
     soup = BeautifulSoup(response.content, "html.parser")
     print(soup)
     # Find the target text
-    # target_text = "We are not currently accepting new applications"
-    target_text = "We are not currently accepting new applications."
     text_found = target_text in soup.get_text()
     #print(text_found)
 
     # Prepare result message
     if text_found:
-        message["Subject"] = "50 Legs not accepting applications"
+        message["Subject"] =  email_fail_subject
         result_message = f"The text '{target_text}' was found on the website."
     else:
-        message["Subject"] = "APPLY TO 50 LEGS NOW!" 
-        result_message = f"WOO HOO!!!!!\nThe text '{target_text}' was NOT FOUND on the website.\nAPPLY NOW!!"
+        message["Subject"] = email_success_subject
+        result_message = f"The text '{target_text}' was NOT found on the website.\n" + action_text
 
     # Print result to screen
     print(result_message)
 
     # Write result to file with timestamp
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open("/home/chuck/code/python/scrape/out.txt", "a") as file:
+    with open(outFile, "a") as file:
         file.write(f"{timestamp}: {result_message}\n")
 
 except Exception as e:
@@ -55,16 +60,17 @@ except Exception as e:
 
     # Write error to file with timestamp
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open("/home/chuck/code/python/scrape/out.txt", "a") as file:
+    with open(outFile, "a") as file:
         file.write(f"{timestamp}: {result_message}\n")
 
 # Attach result message with timestamp to email
 timestamp_email = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-message.attach(MIMEText(f"{timestamp_email}: {result_message}", "plain"))
+message.attach(MIMEText(result_message, "plain"))
 
 # Send email
-with smtplib.SMTP_SSL("web179.dnchosting.com", 465) as server:
+with smtplib.SMTP_SSL("mail.theshanty.us", 465) as server:
+    #server.set_debuglevel(2)
     server.login(sender_email, password)
-    server.sendmail(sender_email, receiver_email1, message.as_string())
-    server.sendmail(sender_email, receiver_email2, message.as_string())
+    server.sendmail(sender_email, receiver_email, message.as_string())
+
 
