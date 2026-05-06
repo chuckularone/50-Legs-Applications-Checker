@@ -6,6 +6,17 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import traceback
 import datetime
+import argparse
+import os
+import sys
+
+# get arguments
+parser = argparse.ArgumentParser(description="Read and print a file")
+parser.add_argument("path", help="Directory path containing the file")
+parser.add_argument("filename", help="Name of the file to read")
+parser.add_argument("receiver_email", help="Name of the file to read")
+parser.add_argument("passwordfile", help="Name of the file to read")
+args = parser.parse_args()
 
 # URL to scrape
 # Read IP address from file and build the URL
@@ -17,16 +28,29 @@ target_text = "We are not currently accepting new applications."
 email_fail_subject = "50 Legs not accepting applications"
 email_success_subject = "APPLY TO 50 LEGS NOW!"
 action_text = "APPLY NOW!"
-outFile = "/home/chuck/code/python/scrape/out.txt"
-# Senders and receivers
-sender_email = "postmaster"
-receiver_email = "chuck@theshanty.us"
-password = "bTzRp2dN2*3#Qbnc"
+
+# Create file paths
+outFile = os.path.join(args.path, args.filename)
+passFile = os.path.join(args.path, args.passwordfile)
+
+# Read in the password for the sender
+try:
+    with open(passFile, "r") as f:
+        password = f.read().strip()
+except FileNotFoundError:
+    print(f"Error: File not found: {passFile}", file=sys.stderr)
+    sys.exit(1)
+except PermissionError:
+    print(f"Error: Permission denied: {passFile}", file=sys.stderr)
+    sys.exit(1)
 
 # Prepare email message
+sender_email = "postmaster"
 message = MIMEMultipart()
 message["From"] = sender_email
-message["To"] = receiver_email
+message["To"] = args.receiver_email
+
+print()
 
 try:
     # Request the URL
@@ -71,6 +95,7 @@ message.attach(MIMEText(result_message, "plain"))
 with smtplib.SMTP_SSL("mail.theshanty.us", 465) as server:
     #server.set_debuglevel(2)
     server.login(sender_email, password)
-    server.sendmail(sender_email, receiver_email, message.as_string())
+    server.sendmail(sender_email, args.receiver_email, message.as_string())
+
 
 
