@@ -18,20 +18,23 @@ parser.add_argument("receiver_email", help="Name of the file to read")
 parser.add_argument("passwordfile", help="Name of the file to read")
 args = parser.parse_args()
 
-# URL to scrape
-# Read IP address from file and build the URL
-with open("/home/chuck/code/python/scrape/ip.txt", "r") as f:
-    ip_address = f.read().strip()
-url = f"http://{ip_address}/chuck/temp.html"
-
+#set variables
 target_text = "We are not currently accepting new applications."
 email_fail_subject = "50 Legs not accepting applications"
 email_success_subject = "APPLY TO 50 LEGS NOW!"
 action_text = "APPLY NOW!"
+ipFileName = "ip.txt"
 
 # Create file paths
 outFile = os.path.join(args.path, args.filename)
 passFile = os.path.join(args.path, args.passwordfile)
+ipFile = os.path.join(args.path, ipFileName)
+
+# URL to scrape
+# Read IP address from file and build the URL
+with open(ipFile, "r") as f:
+    ip_address = f.read().strip()
+url = f"http://{ip_address}/chuck/temp.html"
 
 # Read in the password for the sender
 try:
@@ -56,10 +59,9 @@ try:
     # Request the URL
     response = requests.get(url, timeout=15)
     soup = BeautifulSoup(response.content, "html.parser")
-    print(soup)
+    
     # Find the target text
     text_found = target_text in soup.get_text()
-    #print(text_found)
 
     # Prepare result message
     if text_found:
@@ -86,6 +88,11 @@ except Exception as e:
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(outFile, "a") as file:
         file.write(f"{timestamp}: {result_message}\n")
+
+# debug messages go here
+#print(ipFile)
+#print(text_found)
+#print(soup)
 
 # Attach result message with timestamp to email
 timestamp_email = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
